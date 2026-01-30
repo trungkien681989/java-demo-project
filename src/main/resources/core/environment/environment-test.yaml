@@ -1,0 +1,24 @@
+# TEST Environment Configuration
+environment_name: "TEST"
+
+# CTFLearner Settings
+ctflearner_url: "https://ctflearn.com"
+ctflearner_username: "SamBui"
+ctflearner_password: "Test@1234"
+
+# API Settings (Reqres)
+api_base_url: "https://reqres.in/api"
+api_key: "reqres_e75364f5445446809f80851af1fd9159"
+api_key_header: "x-api-key"
+api_login_email: "eve.holt@reqres.in"
+api_login_password: "cityslicka"
+api_timeout: "30"
+
+# Browser Settings
+browser: "chrome"
+headless: "false"
+implicit_wait: "10"
+page_load_timeout: "60"
+
+# Test Data
+test_data_path: "src/test/resources/test_data/test"

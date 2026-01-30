@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API Test Suite" verbose="1">
+    <listeners>
+        <listener class-name="core.util.reporting.listener.ExecutionListener"/>
+        <listener class-name="core.util.reporting.listener.TestFailureListener"/>
+    </listeners>
+    <test name="Reqres API Tests">
+        <classes>
+            <class name="api.ReqresApiTest">
+            </class>
+        </classes>
+    </test>
+</suite>

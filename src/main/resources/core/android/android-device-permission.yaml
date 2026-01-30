@@ -1,0 +1,13 @@
+#====================================================================================================================#
+# This configs is used to grand permissions on android device
+#====================================================================================================================#
+readExternalStorage: "android.permission.READ_EXTERNAL_STORAGE"
+writeExternalStorage: "android.permission.WRITE_EXTERNAL_STORAGE"
+camera: "android.permission.CAMERA"
+recordAudio: "android.permission.RECORD_AUDIO"
+accessFineLocation: "android.permission.ACCESS_FINE_LOCATION"
+accessCoarseLocation: "android.permission.ACCESS_COARSE_LOCATION"
+readContacts: "android.permission.READ_CONTACTS"
+callPhone: "android.permission.CALL_PHONE"
+readPhoneState: "android.permission.READ_PHONE_STATE"
+receiveSms: "android.permission.RECEIVE_SMS"

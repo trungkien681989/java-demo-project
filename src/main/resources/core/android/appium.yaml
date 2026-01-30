@@ -1,0 +1,8 @@
+#====================================================================================================================#
+# Appium config
+#====================================================================================================================#
+androidCommandTimeout: "120"
+limitRetryToGetAndroidDevice: "10"
+androidDeviceReadyTimeout: "200"
+androidAppPackage: "androidAppPackage"
+androidAppActivity: "androidAppActivity"

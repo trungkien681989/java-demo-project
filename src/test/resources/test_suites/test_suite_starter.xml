@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Test Suites" verbose="1">
+    <listeners>
+        <listener class-name="core.util.reporting.listener.ExecutionListener"/>
+        <listener class-name="core.util.reporting.listener.ExtentTestListener"/>
+        <listener class-name="core.util.reporting.listener.TestFailureListener"/>
+    </listeners>
+    <test name="Reqres API Tests">
+        <classes>
+            <class name="api.ReqresApiTest">
+            </class>
+        </classes>
+    </test>
+    <test name="CTFLearner UI Tests">
+        <classes>
+            <class name="ui.CTFLearnerTest">
+            </class>
+        </classes>
+    </test>
+</suite>

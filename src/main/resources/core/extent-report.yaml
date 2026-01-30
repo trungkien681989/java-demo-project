@@ -1,0 +1,17 @@
+#====================================================================================================================#
+# Extent report config
+#====================================================================================================================#
+# Please define the name that you want automation script will generate the final report
+reportName: "Demo_Test_Report.html"
+
+# Please add the path of extent-config.xml file
+reportConfig: "/src/main/resources/core/extent-config.xml"
+
+# Please define directory for report output and screenshots
+folderTestOutput: "/target/demo-reports/"
+folderNewestTestOutput: "/target/demo-reports/latest/"
+screenshotsDirectory: "/screenshots/"
+
+# Please define limit wait and polling wait in (milliseconds) for generation of the report
+limitTimeToWaitForWriteReport: "20000"
+pollingWaitForCheckReport: "200"

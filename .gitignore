@@ -1,0 +1,76 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.backup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+bin/
+.gradle/
+
+# Test Reports & Logs
+logs/
+test-output/
+*.log
+
+# Build & Artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Node (for Appium)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Appium
+.appium-home/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage
+coverage/
+*.coverage
+.jacoco
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
